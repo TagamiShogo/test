@@ -1,0 +1,186 @@
+html{
+    min-height:100%;
+    position:relative;
+}
+
+/* ---------header ----------*/
+
+header .logo img{
+    padding-top:10px;
+    padding-left:10px;
+    width:300px;
+    float:left;
+}
+
+
+header ul{
+    width:100%;
+    height:80px;
+    display:inline;
+    background-color: black;
+    float:left;
+}
+
+header ul li{
+    list-style:none;
+    float:left;
+    padding-right:50px;
+    line-height: 80px;
+    color:white;
+    font-size:30px;
+}
+
+/* ---------main ----------*/
+
+
+.contents-wrapper{
+    clear:both;
+    margin:0 auto;
+    margin-top:135px;
+    width:100%;
+    height:auto;
+}
+
+/* ---------left ----------*/
+
+.left{
+    float:left;
+    width:65%;
+    height:auto;
+    margin-bottom:100px;
+}
+
+.left h2{
+    padding-left:5px;
+    border-left:5px solid black;
+    border-bottom:2px solid black;
+    
+}
+
+.left form h3{
+    border-left:5px solid red;
+    padding-left:10px;
+    font-size:40px;
+}
+
+form{
+    background-color: #E3E2E2;
+    width:auto;
+    height:750px;
+    padding-left:10px;
+    padding-top:10px;
+    border-radius: 10px;
+    border:2px solid #D6D5D1;
+    font-size:30px;
+}
+
+form div{
+    padding-bottom: 20px;
+    padding-left:50px;
+}
+
+.text, textarea{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:#999;
+    background-color:#fff;
+    font-size:20px;
+}
+
+form input{
+    border:2px solid #D6D5D1;
+}
+
+form option{
+    border:2px solid #D6D5D1;
+    font-size:5px;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius:5px;
+    border-bottom:solid 2px gray;
+    height:80px;
+    width:200px;
+    font-size:30px;
+}
+
+.comments-line{
+    width:300px;
+    border-bottom:3px dotted gray;
+    font-size:20px;
+    padding-left:30px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.kiji{
+    background-color: #E3E2E2;
+    width:auto;
+    height:auto;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:30px;
+    border-radius: 10px;
+    font-size:30px;
+    margin-bottom:30px;
+}
+
+.kiji h3{
+    border-bottom:1px solid black;   
+    font-size:20px;
+}
+
+.kiji .comments{
+    font-size:30px;
+    margin-left:20px;
+}
+
+.kiji .handlename{
+    margin-top:20px;
+    margin-left:20px;
+    font-size:10px;
+    color:darkgray;
+}
+
+/* ---------right ----------*/
+
+.right{
+    float:left;
+    width:35%;
+    height:auto;
+    font-size:30px;
+}
+
+.right h3{
+    margin-left:30px;
+    border-bottom:2px dotted black;
+}
+
+
+.right ul li{
+    list-style: none;
+    line-height:60px;
+}
+
+
+
+
+/* ---------footer ----------*/
+
+footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin-top:30px;
+    background-color:black;
+    width:100%;
+    height:60px;
+    color:white;
+    text-align: center;
+    line-height:60px;
+}
